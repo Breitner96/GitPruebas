@@ -45,7 +45,7 @@ html{
     /* margin: 0 auto; */
 
     width: 10rem;
-    height: 50%;
+    height: 10vh;
      
     
    
@@ -64,4 +64,22 @@ html{
     background-color: royalblue;
     
 
+}
+
+.box3, .head3{
+
+    background-color: green;
+    
+    text-align: center;
+    
+    
+    
+
+}
+
+P{
+
+    font-size: 2rem;
+    
+    
 }
