@@ -20,6 +20,7 @@ html{
     border: 0.2rem black solid;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -28,6 +29,7 @@ html{
 .container{
 
     display: flex;
+    flex-wrap: wrap;
     width: 80vw;
     height: 50vh;
     margin: 0 auto;
@@ -42,7 +44,7 @@ html{
 
     /* margin: 0 auto; */
 
-    width: 20vw;
+    width: 10rem;
     height: 50%;
      
     
@@ -53,13 +55,13 @@ html{
 .box1, .head1{
 
     background-color: red;
-    margin-right: 0.5rem;
+    
 
 }
 
 .box2, .head2{
 
     background-color: royalblue;
-    margin-left: 0.5rem;
+    
 
 }
