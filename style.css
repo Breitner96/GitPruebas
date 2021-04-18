@@ -12,9 +12,24 @@ html{
 
 }
 
+.cabezera{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    margin: 0 auto;
+    border: 0.2rem black solid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
 .container{
 
     display: flex;
+    flex-wrap: wrap;
     width: 80vw;
     height: 50vh;
     margin: 0 auto;
@@ -25,11 +40,11 @@ html{
     justify-content: space-evenly;   */
 }
 
-.box{
+.box, .boxc{
 
     /* margin: 0 auto; */
 
-    width: 20vw;
+    width: 10rem;
     height: 50%;
      
     
@@ -37,17 +52,17 @@ html{
 
 }
 
-.box1{
+.box1, .head1{
 
     background-color: red;
-    margin-right: 0.5rem;
+    
 
 }
 
-.box2{
+.box2, .head2{
 
     background-color: royalblue;
-    margin-left: 0.5rem;
+    
 
 }
 
